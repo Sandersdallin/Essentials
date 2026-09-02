@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Table_Chair_Floor.ma
-//Last modified: Thu, Aug 27, 2026 01:40:50 PM
+//Last modified: Thu, Aug 27, 2026 02:50:09 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,12 +11,12 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "D1D09347-423A-DECA-61A1-9FBE30FA0DC7";
+fileInfo "UUID" "127EDB94-4176-31D4-C6B0-9BAAB2C64912";
 createNode transform -s -n "persp";
 	rename -uid "065E22EC-4908-5859-9E8C-9C9507BC89EB";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -103.56001571260771 48.838336787961531 87.621428573594756 ;
-	setAttr ".r" -type "double3" 705.2616472696302 -1851.3999999992757 -1.2745066108063098e-15 ;
+	setAttr ".t" -type "double3" -44.716718767320742 69.802038085534349 122.5116612717249 ;
+	setAttr ".r" -type "double3" 696.26164726956472 -1821.7999999991889 8.5638213028249053e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1C8F5AB4-4C52-57D2-F088-C2A37367C279";
 	setAttr -k off ".v" no;
